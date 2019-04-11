@@ -817,7 +817,6 @@ i {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin: 0 10px;
   color: white;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
@@ -1098,23 +1097,13 @@ i {
     text-transform: uppercase;
     font-weight: 500;
   }
-  .mainHeader__box--right {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
   .mainHeader__title--bigger {
     color: white;
     font-size: 52px;
     text-transform: uppercase;
     font-weight: 500;
+    text-align: center;
+    width: 100%;
   }
   .mainHeader {
     z-index: -1;
@@ -1538,7 +1527,6 @@ i {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    margin: 0 10px;
     color: white;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
@@ -1709,23 +1697,15 @@ i {
     text-transform: uppercase;
     font-weight: 300;
   }
-  .mainHeader__box--right {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
   .mainHeader__title--bigger {
     color: white;
     font-size: 90px;
     text-transform: uppercase;
     font-weight: 300;
+  }
+  .course__title--additionalList {
+    width: 40%;
+    margin: auto;
   }
   .btn--transparent {
     display: block;
@@ -1930,7 +1910,6 @@ i {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    margin: 0 10vh;
     color: white;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
@@ -2378,18 +2357,6 @@ i {
     text-transform: uppercase;
     font-weight: 300;
   }
-  .mainHeader__box--right {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
   .mainHeader__title--bigger {
     color: white;
     font-size: 100px;
@@ -2782,7 +2749,6 @@ i {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    margin: 0 10vh;
     color: white;
     -webkit-box-pack: center;
         -ms-flex-pack: center;

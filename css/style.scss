@@ -281,7 +281,6 @@ i {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    // border-bottom: 5px solid $coldOrange;
 }
 
 .mainHeader__title--bigger {
@@ -771,7 +770,6 @@ i {
 .contact__content {
     display: flex;
     flex-direction: column;
-    margin: 0 10px;
     color: white;
     justify-content: space-between;
     width: 100%;
@@ -1048,9 +1046,7 @@ i {
     }
 
     .mainHeader__box--right {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+      
         // border-bottom: 5px solid $coldOrange;
     }
 
@@ -1059,6 +1055,8 @@ i {
         font-size: 52px;
         text-transform: uppercase;
         font-weight: 500;
+        text-align: center;
+        width: 100%;
     }
 
     .mainHeader {
@@ -1486,7 +1484,7 @@ i {
     .contact__content {
         display: flex;
         flex-direction: column;
-        margin: 0 10px;
+        // margin: 0 10px;
         color: white;
         justify-content: space-between;
         width: 100%;
@@ -1650,9 +1648,7 @@ i {
     }
 
     .mainHeader__box--right {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+        
         // border-bottom: 5px solid $coldOrange;
     }
 
@@ -1661,8 +1657,12 @@ i {
         font-size: 90px;
         text-transform: uppercase;
         font-weight: 300;
+        
     }
-
+    .course__title--additionalList{
+        width: 40%;
+        margin: auto;
+    }
     .btn--transparent {
         display: block;
         // margin: 100px;
@@ -1860,7 +1860,7 @@ i {
     .contact__content {
         display: flex;
         flex-direction: row;
-        margin: 0 10vh;
+        // margin: 0 10vh;
         color: white;
         justify-content: center;
     }
@@ -2287,12 +2287,7 @@ i {
         font-weight: 300;
     }
 
-    .mainHeader__box--right {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        // border-bottom: 5px solid $coldOrange;
-    }
+  
 
     .mainHeader__title--bigger {
         color: white;
@@ -2703,7 +2698,7 @@ i {
     .contact__content {
         display: flex;
         flex-direction: row;
-        margin: 0 10vh;
+        // margin: 0 10vh;
         color: white;
         justify-content: center;
     }
