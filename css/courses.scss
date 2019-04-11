@@ -1,13 +1,4 @@
-// <div class="course">
-//                         <section class="course__descript">
-//                                 <h1 class="course__title">Course 1</h1>
-//                                 <p class="course__txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi ipsum, est dolor dicta alias animi perferendis explicabo sunt suscipit sit?</p>
-//                                 <button class="course__tag">sem 1</button>
-//                         </section>
-//                         <section class="course__staff">
-//                             <div class="staff--1">
-//                                 <div class="staff__img"></div>
-//                                 <h1 class="staff__title"></h1>
+
 $coldOrange: rgb(218, 72, 47);
 // $coldOrange: rgb(190, 242, 2);
 $coldOrangeO70: rgba(218, 72, 47,.7);
@@ -64,7 +55,7 @@ $transleateSteps:-6vw;
 .course{
     display: flex;
     flex-direction: column;
-    height: 80vh;
+    // height: 80vh;
     width: 90vw;
     background: $whiteO70;
     margin: 0vh auto 3vh;
@@ -290,7 +281,7 @@ a.staff__title{
     .course{
         display: flex;
         flex-direction: row;
-        height: 40vh;
+        // height: 40vh;
         width: 70vw;
         background: $whiteO70;
         margin: 0vh auto 3vh;

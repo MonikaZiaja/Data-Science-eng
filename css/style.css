@@ -589,6 +589,11 @@ i {
   margin-top: 10px;
 }
 
+.skill__descriptBtn--inTxt {
+  color: #ff7155;
+  font-weight: bold;
+}
+
 .skills__circleTitle {
   display: block;
   text-align: center;
@@ -723,10 +728,17 @@ i {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   width: 60%;
   margin: auto;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .recruit__btn {
@@ -742,10 +754,48 @@ i {
   cursor: pointer;
   -webkit-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
+  width: 70vw;
 }
 
 .recruit__btn:hover {
   background: rgba(255, 255, 255, 0.3);
+}
+
+.recruit__content {
+  margin-top: 10vw;
+}
+
+.recruit__list {
+  color: white;
+  margin: auto;
+  width: 80%;
+}
+
+.recruit__txt--beforeLi {
+  padding: 50px 0px;
+  font-size: 22px;
+  color: white;
+}
+
+.recruit__txt--afterLi {
+  padding: 50px 0px;
+  font-size: 22px;
+  color: white;
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+.title--s {
+  display: inline-block;
+  font-size: 30px;
+  padding: 50px 0px;
+  text-align: center;
+  width: 100%;
+}
+
+.white {
+  color: white;
 }
 
 .section__contact {
@@ -1445,6 +1495,7 @@ i {
     font-size: 16px;
   }
   .recruit__title {
+    padding-top: 5vw;
     padding-bottom: 20px;
   }
   .recruit__txt {
@@ -1452,6 +1503,12 @@ i {
     padding: 50px;
     margin: auto;
     text-align: center;
+  }
+  .recruit__btns {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
   }
   .recruit__btn {
     background: transparent;
@@ -1461,7 +1518,8 @@ i {
     letter-spacing: 2px;
     border: 2px solid white;
     color: white;
-    margin: 50px 0;
+    margin: 50px 10px;
+    width: 30vw;
   }
   .section__contact {
     min-height: 50vh;
@@ -1732,8 +1790,8 @@ i {
   }
   .skills__item {
     margin: 3vw;
-    width: 20vw;
-    height: 20vw;
+    width: 23vw;
+    height: 23vw;
     cursor: pointer;
     overflow: hidden;
     opacity: 0;
@@ -1792,8 +1850,8 @@ i {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    width: 20vw;
-    height: 20vw;
+    width: 23vw;
+    height: 23vw;
     border: 2px solid #013c4b;
     background: rgba(0, 0, 0, 0.9);
     padding: 20px;
@@ -1941,7 +1999,7 @@ i {
     width: 42vw;
     background: rgba(0, 0, 0, 0.95);
     padding: 20px;
-    padding-top: calc( 10vh + 70px);
+    padding-top: calc(10vh + 70px);
   }
   .step__text {
     display: -webkit-box;
@@ -2035,7 +2093,11 @@ i {
     color: #ff7155;
   }
   @-webkit-keyframes bounce {
-    0%, 100%, 20%, 50%, 80% {
+    0%,
+    100%,
+    20%,
+    50%,
+    80% {
       -webkit-transform: translate(calc(50vw - 50%), -10vh);
               transform: translate(calc(50vw - 50%), -10vh);
     }
@@ -2049,7 +2111,11 @@ i {
     }
   }
   @keyframes bounce {
-    0%, 100%, 20%, 50%, 80% {
+    0%,
+    100%,
+    20%,
+    50%,
+    80% {
       -webkit-transform: translate(calc(50vw - 50%), -10vh);
               transform: translate(calc(50vw - 50%), -10vh);
     }
@@ -2066,6 +2132,9 @@ i {
     background-color: rgba(0, 0, 0, 0.7) !important;
     -webkit-transition: background-color 200ms linear;
     transition: background-color 200ms linear;
+  }
+  .recruit__list {
+    width: 40%;
   }
 }
 
@@ -2396,7 +2465,7 @@ i {
     width: 42vw;
     background: rgba(0, 0, 0, 0.95);
     padding: 20px;
-    padding-top: calc( 10vh + 70px);
+    padding-top: calc(10vh + 70px);
   }
   .step__text {
     display: -webkit-box;
